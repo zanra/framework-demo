@@ -1,0 +1,19 @@
+{
+    "name": "zanra framework-demo",
+    "description": "Framework demo + doctrine implementation",
+    "authors": [
+        {
+            "name": "Targalis",
+            "email": "targalisgroup@gmail.com"
+        }
+    ],
+    "require": {
+        "zanra/framework": "*",
+        "doctrine/orm": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "mvc/src/"
+        }
+    }
+}
